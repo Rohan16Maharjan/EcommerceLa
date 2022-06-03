@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    background-color: black;
+    max-width: 100%;
+    /* padding: 1rem 2rem; */
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 5px solid white;
+}
+.logo {
+    font-size: 2.3rem;
+    font-weight: 1000;
+    color: #fff;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 2rem 2rem 2rem;
+    color: #fff;
+}
+a:hover {
+    color: rgb(64, 255, 64);
+}
+/* about us */
+.con {
+    padding: 0 5rem 0 5rem;
+    width: 100%;
+    background-color: black;
+}
+.review {
+    padding: 1rem 0;
+    color: #fff;
+}
+.pp {
+    margin-bottom: 2rem;
+}
+h3 {
+    text-align: center;
+}
+.aboutus {
+    padding: 1rem;
+    border: none;
+    font-size: 3rem;
+}
+/* review */
+.reviewhead {
+    padding: 0 5rem 0 5rem;
+    margin-top: 0px;
+    background-color: black;
+}
+.review-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    border: none;
+}
+.review1 img {
+    padding-left: 2rem;
+    width: 80%;
+}
+.review1 {
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.review1:hover {
+    transform: translateY(-2rem);
+}
+.review1 p {
+    margin-bottom: 5rem;
+}
+/* footer */
+footer {
+    padding: 0 5rem 0 5rem;
+    background-color: #000;
+    /* margin-top: 5rem; */
+    border-top: 5px solid white;
+}
+.ff {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.copy {
+    color: #fff;
+    font-size: 1.8rem;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.follow {
+    font-size: 1.8rem;
+}
+.tw:hover {
+    color: rgb(0, 255, 234);
+}
+.ins:hover {
+    color: rgb(131, 58, 180);
+}
+.fb:hover {
+    color: rgb(0, 0, 255);
+}
+.you:hover {
+    color: rgb(255, 0, 0);
+}

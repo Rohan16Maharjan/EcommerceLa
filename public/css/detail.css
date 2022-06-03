@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    background-color: black;
+    max-width: 100%;
+    /* padding: 1rem 2rem; */
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 5px solid white;
+}
+.logo {
+    font-size: 2.3rem;
+    font-weight: 1000;
+    color: #fff;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 2rem 2rem 2rem;
+    color: #fff;
+}
+a:hover {
+    color: rgb(64, 255, 64);
+}
+.prod {
+    color: #000;
+}
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+/* Featured */
+.feature {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto 3fr;
+    padding: 0 5rem 0 5rem;
+    gap: 8rem;
+}
+
+.sidebar {
+    text-align: center;
+    margin-top: 5rem;
+}
+.pro {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    margin-top: 2rem;
+}
+h1,
+h2 {
+    color: #000;
+}
+
+.product-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 50px; */
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.text-center {
+    text-align: center;
+}
+.item {
+    transition: all 0.3s;
+}
+.item:hover {
+    transform: scale(1.1);
+}
+.item img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.product-name {
+    color: #fff;
+}
+.product-price {
+    color: #fff;
+}
+.header {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+/* details */
+.detail {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.image {
+    border: 1px solid black;
+    background-color: #fff;
+}
+.lap {
+    margin: 150px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.det {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.text2 {
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    background-color: rgb(73, 255, 1);
+    width: 20%;
+}
+
+.cart {
+    color: #fff;
+}
+.text a {
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    width: 30%;
+}
+.text a:hover {
+    background-color: darkolivegreen;
+}
+
+/* like */
+.like {
+    padding: 0 5rem 0 5rem;
+}
+.like h3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.might {
+    display: flex;
+    gap: 2rem;
+}
+.might1 {
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.3s;
+}
+.might1:hover {
+    transform: scale(1.1);
+}
+.laa {
+    color: black;
+}
+.product-name {
+    color: black;
+    text-align: center;
+}
+.la,
+.mo,
+.ta,
+.ca {
+    border: 1px solid black;
+}
+.image a img {
+    width: 50%;
+}
+/* footer */
+footer {
+    padding: 0 5rem 0 5rem;
+    background-color: black;
+    margin-top: 5px;
+}
+.ff {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.copy {
+    color: #fff;
+    font-size: 1.8rem;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.follow {
+    font-size: 1.8rem;
+}
+
+.tw:hover {
+    color: rgb(0, 255, 234);
+}
+.ins:hover {
+    color: rgb(131, 58, 180);
+}
+.fb:hover {
+    color: rgb(0, 0, 255);
+}
+.you:hover {
+    color: rgb(255, 0, 0);
+}
